@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TiroirSimple</string>
+    <string name="close">Ferme moi</string>
+    <string name="open">Ouvre moi</string>
+</resources>
