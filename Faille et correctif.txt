@@ -1,0 +1,27 @@
+Olivier.Bournival
+
+FAILLE : lorce que l'utilisateur ecrit son nom il peut metre du javascript et controler l'aplication
+
+EXPLOIT :
+1 envoyer  dans la case nom" <script>alert("Connard")</script>"
+CORRECTIF:
+1  metre dan les d'épandance gradle 
+// https://mvnrepository.com/artifact/org.jsoup/jsoup
+implementation group: 'org.jsoup', name: 'jsoup', version: '1.15.4'
+2 cleaner tou nos parametre 
+ message = Jsoup.clean(message, Whitelist.simpleText());
+
+
+
+
+FAILLE : lorce que l'utilisateur ecrit son nom il peut metre du sql et controler la database 
+EXPLOIT envoyer dans la case nom :
+1 ouvritr l'app 
+2 ecrire dans la case nom "'); DELETE FROM APPMESSAGE; -- "
+
+CORRECTIF :
+a la place de "UPDATE MUSER SET PUBLIC_NAME = '" + publicUsername + "' WHERE ID = " + userId + ""
+met: public int updateUser(Long userId, String publicUsername) {
+        
+                "UPDATE MUSER SET PUBLIC_NAME = '?' WHERE ID = ?", publicUsername , userId
+Tout ce qui est donne par l'utilisateur doit etre passer en parametre afin que il ne soit pas traiter en tem que sql.

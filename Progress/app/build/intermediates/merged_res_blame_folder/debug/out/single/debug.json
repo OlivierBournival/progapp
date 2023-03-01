@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "org.deguet.progress.app-merged_res-17:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "org.deguet.progress.app-main-19:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.deguet.progress.app-merged_res-17:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "org.deguet.progress.app-main-19:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.deguet.progress.app-merged_res-17:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "org.deguet.progress.app-main-19:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.deguet.progress.app-merged_res-17:/layout_activity_main.xml.flat",
+        "source": "org.deguet.progress.app-main-19:/layout/activity_main.xml"
+    },
+    {
+        "merged": "org.deguet.progress.app-merged_res-17:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "org.deguet.progress.app-main-19:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.deguet.progress.app-merged_res-17:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "org.deguet.progress.app-main-19:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.deguet.progress.app-merged_res-17:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "org.deguet.progress.app-main-19:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.deguet.progress.app-merged_res-17:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "org.deguet.progress.app-main-19:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.deguet.progress.app-merged_res-17:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "org.deguet.progress.app-main-19:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.deguet.progress.app-merged_res-17:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "org.deguet.progress.app-main-19:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.deguet.progress.app-merged_res-17:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "org.deguet.progress.app-main-19:/mipmap-mdpi/ic_launcher_round.png"
+    }
+]
